@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# BDDTestPlaywright
-=======
+
 # Simple BDD TypeScript Example
 
 This is a simple repository to practice BDD in TypeScript using Cucumber.js.
@@ -34,4 +32,3 @@ Now includes Playwright e2e tests and a sample calculator UI.
 - `calculator.html` — Simple UI for calculator.
 
 You can expand UI and add more Playwright tests for practice!
->>>>>>> BDDTestPlaywright
