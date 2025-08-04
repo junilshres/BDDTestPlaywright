@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+</head>
+<body>
+  <input id="input-a" type="number" />
+  <input id="input-b" type="number" />
+  <button id="add-btn">Add</button>
+  <div id="result"></div>
+  <script>
+    document.getElementById('add-btn').onclick = function() {
+      const a = parseInt(document.getElementById('input-a').value, 10);
+      const b = parseInt(document.getElementById('input-b').value, 10);
+      document.getElementById('result').textContent = a + b;
+    }
+  </script>
+</body>
+</html>
