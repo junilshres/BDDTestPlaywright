@@ -1,0 +1,26 @@
+{
+  "cucumberautocomplete.steps": [
+    "steps/*.steps.ts"    
+  ],
+  "cucumberautocomplete.syncfeatures": "features/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.strictGherkinValidation": true,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  "cucumberautocomplete.customParameters": [
+    {
+      "parameter": "{int}",
+      "value": "([0-9]+)"
+    },
+    {
+      "parameter": "{string}",
+      "value": "([\"'][^\"']*[\"'])"
+    }
+  ],
+  "cucumber.features": [
+    "features/**/*.feature"
+  ],
+  "cucumber.glue": [
+    "steps/**/*.steps.ts"
+  ]
+}

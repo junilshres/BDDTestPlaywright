@@ -5,7 +5,17 @@
     "outDir": "./dist",
     "rootDir": "./",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true
   },
- "exclude": ["node_modules", "dist", "tests"] 
+  "include": [
+    "src/**/*",
+    "steps/**/*",
+    "features/**/*"
+  ],
+  "exclude": ["node_modules", "dist", "tests"]
 }
