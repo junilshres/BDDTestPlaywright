@@ -1,0 +1,14 @@
+[
+  {
+    "name": "default",
+    "source": [
+      "features/**/*.feature"
+    ],
+    "stepDefinitions": [
+      "steps/**/*.steps.ts"
+    ],
+    "support": [
+      "steps/**/*.ts"
+    ]
+  }
+]
